@@ -18,6 +18,10 @@ def load_conversation_from_file(file_path):
         conversation = []
     return conversation
 
+# Example usage
+open_eyes()
+
+
 # Function to send a user message and receive an assistant response
 def chat(message, conversation):
     global spam_warning  # Use the global spam_warning variable
